@@ -23,7 +23,6 @@ body {
  /*------------------HEADER-----------------*/ 
 
  .header-logo {
-    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -59,7 +58,7 @@ body {
 /*------------------------HERO-------------------------*/
 
 .hero-btn{
-font-family: 'Roboto';
+font-family:inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -114,3 +113,11 @@ color: #757575;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     }
+.footer-mail:hover,
+.footer-mail:focus{
+    color:var(--accent-color)
+ }
+ .footer-tel:hover,
+ .footer-tel:focus{
+    color:var(--accent-color)
+ }
