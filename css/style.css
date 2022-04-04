@@ -61,7 +61,7 @@ body {
 font-family:inherit;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -77,13 +77,13 @@ background-color: #E5E5E5;
 .about-next-title{
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 .after-next-title{
 font-size: 16px;
-line-height: 30px;
+line-height: 1.8;
 letter-spacing: 0.03em;
 color: #757575;
 }
