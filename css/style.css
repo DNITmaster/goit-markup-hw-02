@@ -8,6 +8,19 @@
   --footer-bg-color: #2f303a;
   --logo-color: #000000;
 }
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -22,9 +35,11 @@ a {
 }
 
 .container {
-  width: 1170px;
+  width: 1600px;
   padding-right: 15px;
   padding-left: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 /*------------------HEADER-----------------*/
@@ -79,6 +94,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-bg-color);
+  width: 696px;
 }
 .hero-btn {
   cursor: pointer;
