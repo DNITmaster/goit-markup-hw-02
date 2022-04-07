@@ -11,7 +11,7 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -21,10 +21,16 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /*------------------HEADER-----------------*/
 
 .header-logo {
-  font-family: raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -95,8 +101,7 @@ a {
 
 /*------------------------NEXT-------------------------*/
 
-.next-other-title,
-.after-main-title {
+.next-other-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -104,6 +109,7 @@ a {
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
+
 .next-after-title {
   font-size: 14px;
   line-height: 1.71;
@@ -123,6 +129,15 @@ a {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+/*-----------------------TITLE----------------------*/
+.after-main-title,
+.about-main-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*-----------------------ABOUT----------------------*/
@@ -192,7 +207,7 @@ a {
   background-color: var(--footer-bg-color);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
